@@ -28,6 +28,9 @@ namespace ConsoleApp1
                 case "+":
                     Console.WriteLine(firstValue + secondValue);
                     break;
+                case "-":
+                    Console.WriteLine(firstValue - secondValue);
+                    break;
             }
             Console.ReadLine();
         }
