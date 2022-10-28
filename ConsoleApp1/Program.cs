@@ -34,6 +34,20 @@ namespace ConsoleApp1
                 case "*":
                     Console.WriteLine(firstValue * secondValue);
                     break;
+                case "/":
+                    if (secondValue == 0)
+                    {
+                        Console.WriteLine(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine(firstValue / secondValue);
+                    }
+                    break;
+                default:
+                    Console.WriteLine("ошибка");
+                    break;
+
             }
             Console.ReadLine();
         }
